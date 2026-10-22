@@ -1,0 +1,9 @@
+{
+  "default": {
+    "paths": ["src/test/features/**/*.feature"],
+    "requireModule": ["ts-node/register"],
+    "require": ["src/fixtures/**/*.ts", "src/hooks/**/*.ts", "src/test/steps/**/*.ts"],
+    "format": ["progress", "html:reports/cucumber-report.html"],
+    "publishQuiet": true
+  }
+}
